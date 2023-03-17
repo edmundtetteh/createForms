@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>form for practice</title>
+    </head>
+
+    <body>
+        <form method="post">
+            <fieldset>
+                <legend>Add user</legend>
+
+            <div>
+                <label for="fname">firstName</label>
+                <input id="fname" type="text" name="firstname">
+            </div>
+
+            <div>
+                <label for="lname">lastName</label>
+                <input id="lname" type="text" name="lastname">
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email_address">
+            </div>
+
+            <div>
+                <label for="status">Status</label>
+                <select id="status" name="status">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="guest">Guest</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Choose your favorite programming Language</p>
+
+                <div>
+                    <input id="html" type="radio" name="programming" value="html">
+                    <label for="html">HTML</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="css" name="programming" value="css">
+                    <label for="css">CSS</label>
+                </div>
+
+                <div>
+                    <input type="radio" id="javascript" name="programming" value="javascript">
+                    <label for="javascript">JavaScript</label>
+                </div>
+
+                <div>
+                    <label for="comment">Comment</label>
+                    <textarea id="comment" name="comment"></textarea>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="signup" name="sign">
+                    <label for="sign" name="signup">Sign up for newsletter</label>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="agreement" name="agree">
+                    <label for="agree" name="agreement">Agree to terms and conditions</label>
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </div>
+        </fieldset>
+        </form>
+    </body>
+</html>
